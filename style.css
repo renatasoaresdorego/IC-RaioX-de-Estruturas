@@ -1,0 +1,23 @@
+canvas {
+    border: 1px solid black;
+}
+
+.container {
+    position: relative;
+    width: 990px; /* Ajuste conforme a largura da imagem */
+    height: 520px; /* Ajuste conforme a altura da imagem */
+}
+
+.background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Garante que a imagem esteja atrás do canvas */
+}
+
+#myCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; /* Garante que o canvas esteja acima da imagem */
+}
